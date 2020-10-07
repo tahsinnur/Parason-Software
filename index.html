@@ -52,10 +52,10 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Feature</a>
+                <a class="nav-link" href="#feature">Feature</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Price</a>
+                <a class="nav-link" href="#card">Price</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pages</a>
@@ -191,7 +191,7 @@
       <div class="row">
 
         <div class="col-md-6">
-          <div class="feature-content">
+          <div class="feature-content" id="feature">
             <h1>Leading the Digital Entertainment Revolution</h1>
             <p>Molestie lorem est faucibus Faucibus erat phasellus placerat proinint aptent pulvinar fusce nostra porta sem platea nec, donec fusce erat Molestie lorem est faucibus faucibus erat phasellus placerat proin aptent pulvinar fusce nostra port</p>
             <button class="feature-btn">Know More</button>
@@ -357,7 +357,7 @@
         </div>
 
         <div class="col-md-4">
-            <div class="card text-center">
+            <div class="card text-center" id="card">
             <div class="card-header">
             <h3>Advanced</h3>
             <p>Attend only first day</p>
@@ -573,10 +573,17 @@
           <div class="f-content-2">
             <h4>Newsletter</h4>
             <p>You can trust us. we only send promo offers,</p>
-            <form>
-              <input type="email" name="" placeholder="Your Email Address">
-              <button>Subscribe</button>
+            <div class="subscribe">
+              <form>
+              <div class="form-group">
+                
+                <input type="email" class="form-control" placeholder="Your Email Address">
+            
+              </div>
+              
+              <button type="submit" class="subscribe-btn btn-default">Subscribe</button>
             </form>
+            </div>
           </div>
         </div>
         
